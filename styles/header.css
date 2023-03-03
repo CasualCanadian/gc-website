@@ -1,0 +1,46 @@
+.banner {
+	background-color: black;
+	height: 70px;
+}
+
+.banner h1 {
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.navlist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+}
+
+.navlist_em {
+	float: left;
+}
+
+.navlist_em a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 50px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.navlist_em a:hover {
+	background-color: #F0F0F0;
+	color: #111;
+	transition: all 0.4s ease;
+}
+
+.active {
+	background-color: #DC143C;
+}
+
+@media screen and (max-width: 800px) {
+	.navlist li {float: none;}
+}

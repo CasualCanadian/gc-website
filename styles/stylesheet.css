@@ -1,0 +1,276 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	background: #202020;
+	position: relative;
+	min-height:100%;
+	padding-bottom: 17rem;
+	box-sizing: inherit;
+	overflow-x: hidden;
+}
+
+iframe {
+	aspect-ratio: 16 / 9;
+	height: auto;
+	width: 30%;
+	min-width: 300px;
+}
+
+.text {
+	color: whitesmoke;
+	font-size: 1.2rem;
+	width: 40%;
+	min-width: 300px;
+	text-align: justify;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 135%;
+}
+
+.text a {
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+.text a:visited {
+	color: purple;
+}
+
+.text a:hover {
+	color: red;
+}
+
+.text a:active {
+	color: darkred;
+}
+
+/* Homepage */
+
+.home img {
+	width: 50vw;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 25px;
+	min-width: 350px;
+}
+
+.home-intro {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.home hr {
+	margin: 10px auto;
+	color: white;
+	width: 60vw;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.container a {
+	text-decoration: none;
+}
+
+.card {
+	box-shadow: 0 30px 30px 0 rgb(0,0,0,0.5);
+	background: #DCDCDC;
+	width: 270px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.card-image {
+	height: 170px;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.hc1 {
+	background-image: url("../photos/code.jpg");
+}
+
+.hc2 {
+	background-image: url("../photos/schem.png");
+}
+
+.hc3 {
+	background-image: url("../photos/circuit.jpg");
+}
+
+.card h2 {
+	padding: 10px;
+	text-align: center;
+}
+
+.card p {
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.card ul {
+	padding: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 40px 40px 0 rgb(0,0,0,0.8);
+	background-color: rgb(62, 62, 62);
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.4s ease;
+}
+
+/* Projects page */
+
+.projects-intro h1 {
+	color: white;
+	text-align: center;
+	float: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.projects-intro hr {
+	color: whitesmoke;
+	width: 20vw;
+	min-width: 200px;
+	margin: 0 auto;
+}
+
+.projects-intro img {
+	border-radius: 20px;
+	margin-top: 15px;
+	min-height: 200px;
+	height: 20vw;
+}
+
+.projects-ss h2 {
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.projects-ss hr {
+	color: whitesmoke;
+	width: 60vw;
+	margin: 0 auto;
+}
+
+.projects-ss {
+	padding-top: 20px;
+}
+
+.projects-ps h2 {
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.projects-ps hr {
+	color: whitesmoke;
+	width: 60vw;
+	margin: 0 auto;
+}
+
+.pc1 {
+	background-image: url("../photos/wood.jpg");
+}
+
+.pc2 {
+	background-image: url("../photos/zombiegame.png");
+}
+
+.pc3 {
+	background-image: url("../photos/squaresmenu.png");
+}
+
+.pc4 {
+	background-image: url("../photos/ledcubev1.png");
+}
+
+.pc5 {
+	background-image: url("../photos/ledcubev2.jpg");
+}
+
+.pc6 {
+	background-image: url("../photos/cross-section.jpg");
+}
+
+.pc7 {
+	background-image: url("#");
+}
+
+.pc8 {
+	background-image: url("../photos/jareds.jpg");
+}
+
+.pc9 {
+	background-image: url("#");
+}
+
+.pc10 {
+	background-image: url("../photos/jumper.png");
+}
+
+.pc11 {
+	background-image: url("../photos/car.jpg");
+}
+
+.pc12 {
+	background-image: url("../photos/lema.jpg");
+}
+
+.card h2 {
+	color: #111;
+}
+
+.card:hover h2 {
+	color: #DC143C;
+	transition: all 0.4s ease;
+}
+
+/* About page */
+
+.about-intro h1 {
+	color: white;
+	text-align: center;
+	float: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.about-intro hr {
+	color: whitesmoke;
+	width: 20vw;
+	min-width: 200px;
+	margin: 0 auto;
+}
+
+.about-intro img {
+	border-radius: 50%;
+	margin: 20px 0;
+}
+
+.about-end img {
+	border-radius: 20px;
+	margin-top: 15px;
+	min-height: 150px;
+	height: 15vw;
+}
