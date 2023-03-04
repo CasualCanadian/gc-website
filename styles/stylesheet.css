@@ -110,7 +110,7 @@ iframe {
 }
 
 .hc3 {
-	background-image: url("../photos/circuit.jpg");
+	background-image: url("../photos/woodshop.jpg");
 }
 
 .card h2 {
@@ -222,7 +222,7 @@ iframe {
 }
 
 .pc9 {
-	background-image: url("#");
+	background-image: url("../photos/nemesis.jpg");
 }
 
 .pc10 {
@@ -271,6 +271,6 @@ iframe {
 .about-end img {
 	border-radius: 20px;
 	margin-top: 15px;
-	min-height: 150px;
-	height: 15vw;
+	width: 30vw;
+	min-width: 300px;
 }

@@ -1,0 +1,63 @@
+.project-heading h1 {
+	color: white;
+	text-align: center;
+	float: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.project-heading hr {
+	color: whitesmoke;
+	width: 20vw;
+	min-width: 200px;
+	margin: 0 auto;
+}
+
+.project-description img {
+	border-radius: 20px;
+	margin: 15px 0;
+	width: 20vw;
+	min-width: 250px;
+}
+
+.project-description video {
+	border-radius: 20px;
+	margin: 15px 0;
+	width: 25vw;
+	min-width: 300px;
+}
+
+.project-description p {
+	color: whitesmoke;
+	font-size: 1.2rem;
+	width: 40%;
+	min-width: 300px;
+	text-align: justify;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 135%;
+}
+
+.project-description p a {
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+.project-description p a:visited {
+	color: purple;
+}
+
+.project-description p a:hover {
+	color: red;
+}
+
+.project-description p a:active {
+	color: darkred;
+}
+
+.project-description hr {
+	color: whitesmoke;
+	width: 60vw;
+	margin: 0 auto;
+}
