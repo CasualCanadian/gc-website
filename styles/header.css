@@ -1,12 +1,11 @@
 .banner {
-	background-color: black;
-	height: 70px;
+	background-image: linear-gradient(to bottom right, #DC143C, yellow);
+	height: 120px;
 }
 
-.banner h1 {
-	color: #FFF;
-	text-align: center;
-	padding-top: 20px;
+.banner img {
+	height: 100px;
+	margin: 10px;
 }
 
 .navlist {
