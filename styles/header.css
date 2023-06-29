@@ -1,5 +1,5 @@
 .banner {
-	background-image: linear-gradient(to bottom right, #DC143C, yellow);
+	background-image: linear-gradient(to bottom right, #DC143C, #333);
 	height: 120px;
 }
 
@@ -28,12 +28,14 @@
 	padding: 16px 50px;
 	text-decoration: none;
 	font-family: sans-serif;
+	opacity: 87%;
 }
 
 .navlist_em a:hover {
 	background-color: #F0F0F0;
 	color: #111;
 	transition: all 0.4s ease;
+	opacity: 87%;
 }
 
 .active {
