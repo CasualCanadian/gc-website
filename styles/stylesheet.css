@@ -32,11 +32,11 @@ iframe {
 	font-size: 1.2rem;
 	width: 40%;
 	min-width: 300px;
-	text-align: justify;
+	text-align: left;
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	line-height: 135%;
+	line-height: 175%;
 }
 
 .nametag {
@@ -124,15 +124,23 @@ iframe {
 }
 
 .hc1 {
-	background-image: url("../photos/code.jpg");
+	background-image: url("../photos/vp_code.png");
 }
 
 .hc2 {
-	background-image: url("../photos/schem.png");
+	background-image: url("../photos/html_code.png");
 }
 
 .hc3 {
-	background-image: url("../photos/woodshop.jpg");
+	background-image: url("../photos/language_worksheet.jpg");
+}
+
+.hc4 {
+	background-image: url("../photos/sadie_model.png");
+}
+
+.hc5 {
+	background-image: url("../photos/jareds_circuit.jpg");
 }
 
 .card h2 {
@@ -266,6 +274,18 @@ iframe {
 	background-image: url("../photos/lema_sketch.jpg");
 }
 
+.pc13 {
+	background-image: url("../photos/sadie_rendering.png");
+}
+
+.pc14 {
+	background-image: url("../photos/visualpfas_ss.png");
+}
+
+.pc15 {
+	background-image: url("../photos/lema_sketch.jpg");
+}
+
 .card h2 {
 	color: #111;
 }
@@ -298,6 +318,13 @@ iframe {
 }
 
 .about-end img {
+	border-radius: 20px;
+	margin-top: 15px;
+	width: 30vw;
+	min-width: 300px;
+}
+
+.about-end video {
 	border-radius: 20px;
 	margin-top: 15px;
 	width: 30vw;
